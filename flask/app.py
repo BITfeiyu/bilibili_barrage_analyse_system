@@ -105,7 +105,7 @@ def get_wordcloud():
         else:
             my_wordcloud.do_wordcloud(bv)
             # result = json.dumps({'code':0, 'message':'Wordcloud generated.', 'data':get_image_stream()})
-            result = get_image_stream()
+            result = get_image_stream('data/wordcloud_' + bv + '.png')
             return result
 
 

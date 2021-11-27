@@ -1,6 +1,9 @@
 <template>
   <div class="fill-contain">
     <head-top />
+    <el-row>
+      <el-button type="primary" @click="initialize()">生成情感分析</el-button>
+    </el-row>
     <el-row style="height: 100%">
       <el-col :span="12" style="min-height: 100%">
         <div id="histgram" style="width: 600px; height: 400px"></div>
@@ -70,8 +73,7 @@ export default {
               labelLine: {
                 show: false,
               },
-              data: [
-              ],
+              data: [],
             },
           ],
         },
@@ -122,8 +124,8 @@ export default {
   components: {
     headTop,
   },
-  created: function () {
-    this.initialize();
-  },
+  // created: function () {
+  //   this.initialize();
+  // },
 };
 </script>

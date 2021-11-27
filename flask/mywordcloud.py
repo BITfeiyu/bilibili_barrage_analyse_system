@@ -31,4 +31,4 @@ def do_wordcloud(bv):
     plt.imshow(word_cloud)
     plt.axis('off')
     # plt.show()
-    word_cloud.to_file('data/bilibili.png')
+    word_cloud.to_file('data/wordcloud_' + bv + '.png')

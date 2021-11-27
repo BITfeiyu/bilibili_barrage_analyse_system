@@ -36,7 +36,12 @@
         <img :src="wordcloud_img" />
       </el-col>
     </el-row> -->
-    <img :src="wordcloud_img" class="display_wordcloud" />
+    <el-row>
+      <el-button type="primary" @click="initialize()">生成词云图</el-button>
+    </el-row>
+    <el-row>
+      <img :src="wordcloud_img" class="display_wordcloud" />
+    </el-row>
   </div>
 </template>
 
@@ -90,9 +95,9 @@ export default {
       }
     },
   },
-  created: function () {
-    this.initialize();
-  },
+  // created: function () {
+  //   this.initialize();
+  // },
 };
 </script>
 
