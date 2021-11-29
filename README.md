@@ -22,7 +22,12 @@
  localhost:8080
  ```
  
- 2、进入flask文件夹，首先在命令行创建一个虚拟运行环境，并将其打开，这有助于python项目的封装和包管理
+ 2、进入flask文件夹，创建一个data文件夹作为默认的数据存储路径
+ ```
+ > mkdir data
+ ```
+ 
+ 在命令行创建一个虚拟运行环境，并将其打开，这有助于python项目的封装和包管理
  ```
  > py -3 -m venv venv
  > venv\Scripts\activate
@@ -38,7 +43,7 @@
  (venv)> pip install -r requirements.txt
  ```
  
- 启动后端程序，程序将在flask默认的5050端口运行
+ 启动后端程序，程序将在flask默认的5050端口运行(无所谓是否在虚拟环境下执行这条命令)
  ```
  > flask run
  ```
