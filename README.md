@@ -52,4 +52,10 @@
  
  4、这只是笔者初学vue和flask所做的一个测试项目，仅供参考和学习交流使用，如有意见欢迎指出
  
+ ## 效果展示
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/47128987/143800953-16e31d0f-643e-46bd-9ad0-cb779053e447.png)
+ ![image](https://user-images.githubusercontent.com/47128987/143800980-4b135509-c5fc-415a-9e31-bd99fae0ec97.png)
+ ![image](https://user-images.githubusercontent.com/47128987/143801009-cf8cecbe-16ff-44df-81a0-2b29b8215423.png)
  
