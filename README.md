@@ -43,9 +43,9 @@
  (venv)> pip install -r requirements.txt
  ```
  
- 启动后端程序，程序将在flask默认的5050端口运行 (无所谓是否在虚拟环境下执行这条命令)
+ 启动后端程序，程序将在flask默认的5050端口运行
  ```
- > flask run
+ (venv)> flask run
  ```
  
  3、登录页面的用户名和密码均为admin
